@@ -1,3 +1,3 @@
-module golanglearning/new_project/go-github-actions
+module go-github-actions
 
 go 1.18

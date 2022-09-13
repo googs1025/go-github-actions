@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"golanglearning/new_project/go-github-actions/hello"
+	"go-github-actions/hello"
 )
 
 func main() {
