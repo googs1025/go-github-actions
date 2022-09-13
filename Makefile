@@ -1,4 +1,4 @@
-PROJECT_NAME := "github.com/cnych/go-github-actions"
+PROJECT_NAME := "github.com/googs1025/go-github-actions"
 PKG := "$(PROJECT_NAME)"
 PKG_LIST := $(shell go list ${PKG}/... | grep -v /vendor/)
 GO_FILES := $(shell find . -name '*.go' | grep -v /vendor/ | grep -v _test.go)
@@ -31,8 +31,3 @@ clean: ## Remove previous build
 
 help: ## Display this help screen
 	@grep -h -E '^[a-zA-Z_-]+:.*?## .*?' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", ?1, ?2}'
-
-作者：iFangcy_
-链接：https://juejin.cn/post/6844903928409096200
-来源：稀土掘金
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
