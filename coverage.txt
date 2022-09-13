@@ -1,0 +1,2 @@
+mode: atomic
+go-github-actions/hello/hello.go:4.21,6.2 1 1
